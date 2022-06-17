@@ -11,7 +11,7 @@ try {
     },
   });
 
-  throw "Error from Honeybadger:";
+  throw "Error from Honeybadger";
 } catch (e) {
   Honeybadger.notify(e);
 }
